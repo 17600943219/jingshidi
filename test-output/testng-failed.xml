@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite_login]">
+  <parameter name="aaa" value="5"/>
+  <parameter name="maxReTryNum" value="2"/>
+  <listeners>
+    <listener class-name="cn.itcast.seletest.RetryListener"/>
+  </listeners>
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="cn.itcast.seletest.JtTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test01"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- cn.itcast.seletest.JtTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [suite_login] -->

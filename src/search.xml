@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<groups>
+    <searchbox1 type="className" str="android.widget.LinearLayout">
+    </searchbox1>
+    <searchbox2 type="id" str="com.baidu.searchbox:id/SearchTextInput">
+    </searchbox2>
+    <button type="id" str="com.baidu.searchbox:id/float_search_or_cancel">
+    </button>
+</groups>
